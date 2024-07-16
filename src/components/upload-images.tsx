@@ -17,24 +17,6 @@ const Uploading =({setFiles}: {setFiles: React.Dispatch<React.SetStateAction<any
   const [previewOpen, setPreviewOpen] = useState(false);
   const [previewImage, setPreviewImage] = useState('');
   const [fileList, setFileList] = useState<UploadFile[]>([
-    // {
-    //   uid: '-1',
-    //   name: 'image.png',
-    //   status: 'done',
-    //   url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-    // },
-    // {
-    //   uid: '-xxx',
-    //   percent: 50,
-    //   name: 'image.png',
-    //   status: 'uploading',
-    //   url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-    // },
-    // {
-    //   uid: '-5',
-    //   name: 'image.png',
-    //   status: 'error',
-    // },
   ]);
   
   const handlePreview = async (file: UploadFile) => {

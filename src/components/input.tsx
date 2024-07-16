@@ -27,9 +27,7 @@ const FormInput: React.FC = () => (
     <Form.Item label="Color" rules={[{ required: true }]}>
       <Input type='color' required/>
     </Form.Item>
-
-    <Uploading/>
-  </Form>
+    </Form>
 );
 
 export default FormInput;

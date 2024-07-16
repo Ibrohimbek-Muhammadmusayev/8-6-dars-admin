@@ -1,7 +1,6 @@
 import { CreateModal } from "../../components/modal";
-import { Button, ConfigProvider, Form, Input, Select, Divider, Radio, Table, Space, message, Popconfirm } from'antd';
+import { Button, ConfigProvider, Form, Input, Divider, Radio, Table, Space, message, Popconfirm } from'antd';
 import { useState, useEffect } from "react";
-// import type { TableColumnsType } from 'antd';
 import { collection, getDocs, deleteDoc, doc } from "firebase/firestore";
 import { db } from "../../firebase";
 
