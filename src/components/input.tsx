@@ -1,6 +1,5 @@
 import React from 'react';
 import { Form, Input } from 'antd';
-import Uploading from './upload-images';
 
 const FormInput: React.FC = () => (
   <Form
@@ -27,7 +26,7 @@ const FormInput: React.FC = () => (
     <Form.Item label="Color" rules={[{ required: true }]}>
       <Input type='color' required/>
     </Form.Item>
-    </Form>
+  </Form>
 );
 
 export default FormInput;
